@@ -9,12 +9,12 @@ import { StarComponent } from './star/star.component';
 @NgModule({
   declarations: [
     AppComponent,
-    CourseListComponent
+    CourseListComponent,
+    StarComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    StarComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
